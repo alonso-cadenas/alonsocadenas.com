@@ -7,7 +7,7 @@
 - [Vite](https://vite.dev/)
 - [Prettier](https://prettier.io/)
 
-## How to use
+## How To Use
 
 ### Installation
 
@@ -33,7 +33,7 @@ Build for production.
 npm run build
 ```
 
-### Build
+### Preview
 
 Locally preview the production build prior to deployment.
 
