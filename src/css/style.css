@@ -157,12 +157,10 @@ nav > ul > li {
 }
 
 nav > ul > li:first-child {
-  list-style-type: none;
   margin-left: 0;
 }
 
 nav > ul > li:last-child {
-  list-style-type: none;
   margin-right: 0;
 }
 
