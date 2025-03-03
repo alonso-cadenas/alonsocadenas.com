@@ -27,6 +27,10 @@ body {
   padding: 13px;
 }
 
+section {
+  padding-top: 2em;
+}
+
 @media (max-width: 684px) {
   body {
     font-size: 1.53rem;
@@ -62,6 +66,7 @@ h1 {
 
 h2 {
   font-size: 2em;
+  text-align: center;
 }
 
 h3 {
@@ -144,24 +149,25 @@ video {
 }
 
 /* Navigation bar */
+header {
+  background-color: var(--background-color);
+  border: 0.25rem solid var(--primary-color);
+  border-radius: 0.5rem;
+  position: sticky;
+  top: 13px;
+  z-index: 1;
+}
+
 nav > ul {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0;
   padding-left: 0;
 }
 
 nav > ul > li {
   list-style-type: none;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-nav > ul > li:first-child {
-  margin-left: 0;
-}
-
-nav > ul > li:last-child {
-  margin-right: 0;
+  margin: 0.5rem 1rem;
 }
 
 /* Pre and Code */
