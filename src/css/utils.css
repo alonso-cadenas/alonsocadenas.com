@@ -1,0 +1,33 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 2s ease forwards;
+}
+
+.fade-out {
+  animation: fadeOut 2s ease forwards;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.hero {
+  text-align: center;
+}
