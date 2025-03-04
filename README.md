@@ -4,8 +4,11 @@
 
 ## Technologies Used
 
+- Vanilla JS, CSS, and HTML.
 - [Vite](https://vite.dev/)
 - [Prettier](https://prettier.io/)
+- [modern-normalize](https://github.com/sindresorhus/modern-normalize)
+- [Sakura](https://github.com/oxalorg/sakura/)
 
 ## How To Use
 
