@@ -2,11 +2,12 @@ const subtitles = [
   "Software Engineer 💻",
   "Technical Leader 🚀",
   "Optimist ✨",
+  "Curious Learner 🔍",
   "Husband ❤️",
   "Father 👶",
   "Music Lover 🎵",
   "Soccer Fan ⚽",
-  "Nature Obsessed 🌳",
+  "Nature Seeker 🌳",
 ];
 
 const FADE_IN_DURATION = 2000;
