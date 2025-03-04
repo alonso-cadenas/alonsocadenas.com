@@ -7,7 +7,7 @@ const subtitles = [
   "Father 👶",
   "Music Lover 🎵",
   "Soccer Fan ⚽",
-  "Nature Explorer 🌳",
+  "Nature Seeker 🌳",
 ];
 
 const FADE_IN_DURATION = 2000;
