@@ -1,6 +1,6 @@
 # alonsocadenas.com
 
-:wave: Hi, I'm Alonso! Thanks for checking out my website :raised_hands:
+:wave: Hi, I'm Alonso! Thanks for checking out my website.
 
 ## Technologies Used
 
