@@ -31,3 +31,42 @@
 .hero {
   text-align: center;
 }
+
+.card {
+  align-items: center;
+  border-radius: 2vw;
+  border: 2rem solid var(--primary-color);
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.card header,
+.card footer {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  padding: 0.5rem 2rem;
+}
+
+.card header {
+  border-bottom-left-radius: 0.5vw;
+  border-bottom-right-radius: 0.5vw;
+}
+
+.card footer {
+  border-top-left-radius: 0.5vw;
+  border-top-right-radius: 0.5vw;
+}
+
+.card footer p {
+  margin-bottom: 0;
+}
+
+.card ul {
+  text-align: left;
+}
