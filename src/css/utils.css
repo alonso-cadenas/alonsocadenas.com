@@ -34,7 +34,7 @@
 
 .card {
   align-items: center;
-  border-radius: 2vw;
+  border-radius: 4.5rem;
   border: 2rem solid var(--primary-color);
   box-shadow:
     0 4px 8px 0 rgba(0, 0, 0, 0.2),
@@ -54,7 +54,7 @@
 .card footer {
   background-color: var(--primary-color);
   color: var(--background-color);
-  padding: 0.5rem 2rem;
+  padding: 0 2rem;
 }
 
 .card:nth-of-type(even) header,
@@ -63,13 +63,15 @@
 }
 
 .card header {
-  border-bottom-left-radius: 0.5vw;
-  border-bottom-right-radius: 0.5vw;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .card footer {
-  border-top-left-radius: 0.5vw;
-  border-top-right-radius: 0.5vw;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  padding-top: 0.5rem;
 }
 
 .card footer p {
