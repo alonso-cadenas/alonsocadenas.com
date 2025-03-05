@@ -28,7 +28,7 @@
   border-radius: 50%;
 }
 
-.hero {
+.text-center {
   text-align: center;
 }
 
@@ -46,11 +46,20 @@
   margin: 3rem 0;
 }
 
+.card:nth-of-type(even) {
+  border-color: var(--secondary-color);
+}
+
 .card header,
 .card footer {
   background-color: var(--primary-color);
   color: var(--background-color);
   padding: 0.5rem 2rem;
+}
+
+.card:nth-of-type(even) header,
+.card:nth-of-type(even) footer {
+  background-color: var(--secondary-color);
 }
 
 .card header {
@@ -69,4 +78,21 @@
 
 .card ul {
   text-align: left;
+}
+
+.links-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+
+.links-container a {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.links-container a img {
+  margin-bottom: 1rem;
 }

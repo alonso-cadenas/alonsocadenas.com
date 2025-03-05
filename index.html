@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/code.svg" />
+    <link rel="icon" type="image/svg+xml" href="code.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Learn about Alonso Cadenas." />
     <title>Alonso Cadenas</title>
@@ -24,7 +24,7 @@
     </header>
 
     <main>
-      <section id="home" class="hero">
+      <section id="home" class="text-center">
         <h1>Alonso Cadenas</h1>
         <p id="subtitle"></p>
         <img
@@ -220,6 +220,7 @@
             <a
               id="ecowaste-link"
               href="https://github.com/alonso-cadenas/ecowaste"
+              rel="noopener noreferrer"
               target="_blank"
             >
               EcoWaste
@@ -236,6 +237,7 @@
             <a
               id="team-dysfunctions-assessment-link"
               href="https://github.com/alonso-cadenas/team-dysfunctions-assessment"
+              rel="noopener noreferrer"
               target="_blank"
             >
               Team Dysfunctions Assessment
@@ -252,6 +254,7 @@
             <a
               id="seats-link"
               href="https://github.com/alonso-cadenas/seats"
+              rel="noopener noreferrer"
               target="_blank"
             >
               Seats
@@ -268,6 +271,7 @@
             <a
               id="365-tacos-blog-link"
               href="https://twitter.com/365tacos"
+              rel="noopener noreferrer"
               target="_blank"
             >
               365Tacos Blog
@@ -284,6 +288,7 @@
             <a
               id="amovio-link"
               href="https://twitter.com/AlphaLabGear/status/578366965535760384?cxt=HHwWgICjqZvs4oYQAAAA"
+              rel="noopener noreferrer"
               target="_blank"
             >
               Amovio
@@ -299,22 +304,46 @@
       <section id="contact">
         <h2>Contact Me</h2>
 
-        <form>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required />
+        <nav id="contact-navigation" class="links-container">
+          <a
+            id="linkedin"
+            href="https://www.linkedin.com/in/alonso-cadenas/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              alt="LinkedIn Icon"
+              src="linkedin.svg"
+              height="64"
+              width="64"
+            />
+            LinkedIn
+          </a>
 
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
+          <a
+            id="email"
+            href="mailto:chatwithalonso@gmail.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img src="email.svg" alt="Email Icon" width="64" height="64" />
+            chatwithalonso@gmail.com
+          </a>
 
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" required></textarea>
-
-          <button type="submit">Send</button>
-        </form>
+          <a
+            id="github"
+            href="https://github.com/alonso-cadenas"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img src="github.svg" alt="GitHub Icon" width="64" height="64" />
+            GitHub
+          </a>
+        </div>
       </section>
     </main>
 
-    <footer>
+    <footer class="text-center">
       <p>&copy; 2025 Alonso Cadenas. All rights reserved.</p>
     </footer>
 
