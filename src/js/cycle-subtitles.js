@@ -11,8 +11,8 @@ const subtitles = [
   "Nature Seeker 🌳",
 ];
 
-const FADE_IN_DURATION = 2000;
-const FADE_OUT_DURATION = 2000;
+const FADE_IN_DURATION = 2500;
+const FADE_OUT_DURATION = 1000;
 
 export function cycleSubtitles() {
   let currentIndex = 0;
